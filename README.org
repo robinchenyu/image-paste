@@ -18,6 +18,11 @@ image file path to current buffer.
 To use this configuration layer, add it to your =~/.spacemacs=. You will need to
 add =imagepaste= to the existing =dotspacemacs-configuration-layers= list in this
 file.
+Need to install python3 and added it to exec path.
+Need to install python library of pillow.
+#+BEGIN_SRC bash
+pip install pillow
+#+END_SRC
 
 * Key bindings
 
